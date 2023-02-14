@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "npx tsc && node build/src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-ws": "^5.0.2",
+    "http": "^0.0.1-security",
+    "jwt-decode": "^3.1.2",
+    "snarkyjs": "^0.8.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.15",
+    "@types/express-ws": "^3.0.1",
+    "@types/node": "^18.11.18",
+    "@types/uuid": "^9.0.0",
+    "typescript": "^4.9.4"
+  }
+}

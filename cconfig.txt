@@ -1,0 +1,22 @@
+Deployer smart contract
+KeyPair {
+  privateKey: 'EKErqbyzp3FhrHVgSkjMF1dqMAB4Ych27VaRvuq51dtqMBTmTj8h',
+  publicKey: 'B62qpM66DERiwSiau6Cu4dymh44xo75DAHo866qyMzjJz4MSQT73Wku'
+}
+
+Trusted Service
+
+Public Key: B62qpznUViEYBzpWas51mDyH8kAKhR7x26fih44BwXjXCkyMpe3eAvn
+Private Key: EKFC3bAPEbW9J53DH1VaDzdBPanBYNSm121jSzH9RHET7GcagXRo
+
+Customer A 
+"publicKey":"B62qieMrJYRb5q8x2n1XW4ByiMsjMPstkEamxnvSaCgF4SvZ6puuqxd",
+"privateKey":"EKFKK6963RNE3KFj7JxEmt7JML42dqJaBXXfFGER5DWvgRMQ2xSw"
+
+Customer B 
+"publicKey":"B62qmTYcTfjRLafqjrUEpboC7JnZd4UJX7mGFeQkVyj1fNnwcMVf4my",
+"privateKey":"EKE7CDqtHqi5sM7oSMc2wAuwgqvpcDeJGi7F7wErMuJdMYmYYLo6"
+
+FEE PAYER
+Priv:  EKF36BUdQqZhP8xeCn1oxAK343VihK1xk7jLDrsuD1V9ZphJ53wy 
+Pub:  B62qqQgFVKFdMFRcT4yHYiK5yHmmTkyvB9LvA8FUyeLvsdHeR9NJ1sq
