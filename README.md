@@ -2,9 +2,12 @@
 ## _A blockchain payment similar to cash payments, with KYC check for country regulations_
 
 This package is a Proof of Concept built on the Mina ZKP blockchain to execute an anonymous payment between two entities. Given the specific country regulation the PoC has a check on the amount to be sent and if above a certain threshold it will start a KYC check control. 
+If you want to know more about Mina and the ZKP SnarkyJS concepts, please visit their website at [Mina](https://minaprotocol.com)
+If you want to know more about the project and the concepts behind, please visit etonec GmbH website at [etonec](https://etonec.com)
+If you want to know more about Self Sovereign Identity (SSI) and the Juno platfrom from Sideos GmbH, please visit their website at [Sideos](https://sideos.io)
 
 ## Features
-- Uses the Mina ZKP smart contract to achieve the results
+- Uses the Mina ZKP smart contract to achieve the results. See [ZKP Apps](https://docs.minaprotocol.com/zkapps/how-zkapps-work)
 - Uses an escrow account in order to make the trasaction anonymous
 - Uses an Oracle in order to confirm the validity of the KYC proof
 - Uses a KYC provider, Sideos GmbH, to store the credentials of KYC completed using latest SSI technology
@@ -65,5 +68,10 @@ For the server once you set up all the environment variables, run `yarn install`
 You can test the process by sending 1 nanoMina. Type 1 in the amount to send text field, and press the Send button. Now the browser starts compiling the smart contract, and send the proofs to the Mina blockchanin. It is pretty work intensive, and it may take several minutes to complete. The browser may freeze at time depending on your machine.
 
 Once completed you should see the amount taken away from Customer A and added to Customer B.
+
+
+
+
+
 
 
